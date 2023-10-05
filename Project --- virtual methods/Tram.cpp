@@ -17,6 +17,16 @@ void Tram::Input()
 	cin >> lastRepair;
 }
 
+void Tram::SetRepair(int l)
+{
+	lastRepair = l;
+}
+
+int Tram::GetRepair()
+{
+	return lastRepair;
+}
+
 void Tram::Print()
 {
 	cout << "Year: " << year << endl;

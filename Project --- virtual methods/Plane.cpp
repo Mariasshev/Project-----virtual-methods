@@ -17,6 +17,16 @@ void Plane::Input()
 	cin >> isBusinessClass;
 }
 
+void Plane::SetClass(bool c)
+{
+	isBusinessClass = c;
+}
+
+bool Plane::GetClass()
+{
+	return isBusinessClass;
+}
+
 void Plane::Print()
 {
 	cout << "Year: " << year << endl;

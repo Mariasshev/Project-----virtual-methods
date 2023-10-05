@@ -17,6 +17,16 @@ void Motorbike::Input()
 	cin >> isHelmet;
 }
 
+void Motorbike::SetHetmel(bool a)
+{
+	isHelmet = a;
+}
+
+bool Motorbike::GetHelmet()
+{
+	return isHelmet;
+}
+
 void Motorbike::Print()
 {
 	cout << "Year: " << year << endl;

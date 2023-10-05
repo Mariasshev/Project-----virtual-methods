@@ -17,6 +17,16 @@ void Vessel::Input()
 	cin >> cabins;
 }
 
+void Vessel::SetCab(int c)
+{
+	cabins = c;
+}
+
+int Vessel::GetCab()
+{
+	return cabins;
+}
+
 void Vessel::Print()
 {
 	cout << "Year: " << year << endl;

@@ -19,12 +19,12 @@ public:
 	Transport(int y, string fuel, int seats, double c);
 	void SetFuel(string fuel);
 	string GetFuel();
-	virtual void SetYear(int y);
-	virtual int GetYear();
-	virtual void SetSeats(int seat);
-	virtual int GetSeats();
-	virtual void SetCost(int c);
-	virtual double GetCost();
+	void SetYear(int y);
+	int GetYear();
+	void SetSeats(int seat);
+	int GetSeats();
+	void SetCost(int c);
+	double GetCost();
 
 	virtual void Print();
 	virtual void Input();
